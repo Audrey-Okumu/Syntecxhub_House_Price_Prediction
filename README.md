@@ -20,11 +20,15 @@
 
 - Basement and garage features: filled with 0 where missing.
 
-##Preprocessing Steps
+---
+
+## Preprocessing Steps
 
 - Handled missing values for numerical and categorical columns.
 - One-hot encoded categorical variables.
 - Aligned test dataset features with training dataset columns.
+
+---
 
 ## Model
 - **Type:** Linear Regression
@@ -33,11 +37,15 @@
       - **RMSE:** Root Mean Squared Error
       - **R² Score:** Coefficient of Determination
 
+---
+
 ## Interpretation:
 
 Feature coefficients indicate which features increase or decrease house prices.
 
 **Example:** OverallQual (overall material and finish quality) has a strong positive coefficient.
+
+---
 
 ## How to Run
 
