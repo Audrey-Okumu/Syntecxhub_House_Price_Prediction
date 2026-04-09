@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Dataset files (you can keep the zip if you want, but not extracted CSVs)
+notebooks/data/*.csv
+notebooks/data/*.zip
+notebooks/data/*.txt
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# IDE-specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
